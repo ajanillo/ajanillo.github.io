@@ -1,0 +1,1757 @@
+/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css
+
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
+
+html
+  font-family: sans-serif
+  /* 1
+  -ms-text-size-adjust: 100%
+  /* 2
+  -webkit-text-size-adjust: 100%
+  /* 2
+
+/**
+ * Remove the margin in all browsers (opinionated).
+
+body
+  margin: 0
+
+/* HTML5 display definitions
+ * ==========================================================================
+
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ * 2. Add the correct display in IE.
+
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary
+  /* 1
+  display: block
+
+/**
+ * Add the correct display in IE 9-.
+
+audio, canvas, progress, video
+  display: inline-block
+
+/**
+ * Add the correct display in iOS 4-7.
+
+audio:not([controls])
+  display: none
+  height: 0
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+
+progress
+  vertical-align: baseline
+
+/**
+ * Add the correct display in IE 10-.
+ * 1. Add the correct display in IE.
+
+template, [hidden]
+  display: none
+
+/* Links
+ * ==========================================================================
+
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+
+a
+  background-color: transparent
+  /* 1
+  -webkit-text-decoration-skip: objects
+  /* 2
+  &:active, &:hover
+    outline-width: 0
+
+/**
+ * Remove the outline on focused links when they are also active or hovered
+ * in all browsers (opinionated).
+
+/* Text-level semantics
+ * ==========================================================================
+
+/**
+ * 1. Remove the bottom border in Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+
+abbr[title]
+  border-bottom: none
+  /* 1
+  text-decoration: underline
+  /* 2
+  text-decoration: underline dotted
+  /* 2
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+
+b, strong
+  font-weight: inherit
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+
+b, strong
+  font-weight: bolder
+
+/**
+ * Add the correct font style in Android 4.3-.
+
+dfn
+  font-style: italic
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+
+h1
+  font-size: 2em
+  margin: 0.67em 0
+
+/**
+ * Add the correct background and color in IE 9-.
+
+mark
+  background-color: #ff0
+  color: #000
+
+/**
+ * Add the correct font size in all browsers.
+
+small
+  font-size: 80%
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+
+sub, sup
+  font-size: 75%
+  line-height: 0
+  position: relative
+  vertical-align: baseline
+
+sub
+  bottom: -0.25em
+
+sup
+  top: -0.5em
+
+/* Embedded content
+ * ==========================================================================
+
+/**
+ * Remove the border on images inside links in IE 10-.
+
+img
+  border-style: none
+
+/**
+ * Hide the overflow in IE.
+
+svg:not(:root)
+  overflow: hidden
+
+/* Grouping content
+ * ==========================================================================
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+
+code, kbd, pre, samp
+  font-family: monospace, monospace
+  /* 1
+  font-size: 1em
+  /* 2
+
+/**
+ * Add the correct margin in IE 8.
+
+figure
+  margin: 1em 40px
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+
+hr
+  box-sizing: content-box
+  /* 1
+  height: 0
+  /* 1
+  overflow: visible
+  /* 2
+
+/* Forms
+ * ==========================================================================
+
+/**
+ * 1. Change font properties to `inherit` in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+
+button, input, select, textarea
+  font: inherit
+  /* 1
+  margin: 0
+  /* 2
+
+/**
+ * Restore the font weight unset by the previous rule.
+
+optgroup
+  font-weight: bold
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+
+button, input
+  /* 1
+  overflow: visible
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+
+button, select
+  /* 1
+  text-transform: none
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+
+button, html [type="button"], [type="reset"], [type="submit"]
+  -webkit-appearance: button
+  /* 2
+
+/**
+ * Remove the inner border and padding in Firefox.
+
+button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner
+  border-style: none
+  padding: 0
+
+/**
+ * Restore the focus styles unset by the previous rule.
+
+button:-moz-focusring, [type="button"]:-moz-focusring, [type="reset"]:-moz-focusring, [type="submit"]:-moz-focusring
+  outline: 1px dotted ButtonText
+
+/**
+ * Change the border, margin, and padding in all browsers (opinionated).
+
+
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+
+legend
+  box-sizing: border-box
+  /* 1
+  color: inherit
+  /* 2
+  display: table
+  /* 1
+  max-width: 100%
+  /* 1
+  padding: 0
+  /* 3
+  white-space: normal
+  /* 1
+
+/**
+ * Remove the default vertical scrollbar in IE.
+
+textarea
+  overflow: auto
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+
+[type="checkbox"], [type="radio"]
+  box-sizing: border-box
+  /* 1
+  padding: 0
+  /* 2
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+
+[type="number"]
+  &::-webkit-inner-spin-button, &::-webkit-outer-spin-button
+    height: auto
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+
+[type="search"]
+  -webkit-appearance: textfield
+  /* 1
+  outline-offset: -2px
+  /* 2
+  &::-webkit-search-cancel-button, &::-webkit-search-decoration
+    -webkit-appearance: none
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on OS X.
+
+/**
+ * Correct the text style of placeholders in Chrome, Edge, and Safari.
+
+\::-webkit-input-placeholder
+  color: inherit
+  opacity: 0.54
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+
+\::-webkit-file-upload-button
+  -webkit-appearance: button
+  /* 1
+  font: inherit
+  /* 2
+body
+  font-size: 14px
+  line-height: 1.6
+  font-family: "Roboto", sans-serif
+  color: rgba(0, 0, 0, 0.7)
+  margin: 0
+  padding: 0
+  -webkit-font-smoothing: antialiased
+  -webkit-text-size-adjust: 100%
+
+a
+  color: inherit
+  text-decoration: none
+  outline: 0
+  border-bottom: 2px solid rgba(0, 0, 0, 0.15)
+  &:hover, &:focus
+    color: inherit
+    border-bottom-color: rgba(0, 0, 0, 0.3)
+  &.white, &.white-hard
+    border-bottom-color: rgba(255, 255, 255, 0.3)
+  &.white
+    &:hover, &:focus
+      color: white
+  &.white-hard
+    &:hover, &:focus
+      color: white
+
+.gigantic, .huge, .large, .bigger, .big, h1, h2, h3, h4, h5, h6
+  color: #222
+  font-weight: bold
+  margin: 0
+  margin-bottom: 20px
+
+.gigantic
+  font-size: 110px
+  line-height: 1.09
+  letter-spacing: -2px
+
+.huge, h1
+  font-size: 68px
+  line-height: 1.05
+  letter-spacing: -1px
+
+.large, h2
+  font-size: 42px
+  line-height: 1.14
+
+.bigger, h3
+  font-size: 26px
+  line-height: 1.38
+
+.big, h4
+  font-size: 22px
+  line-height: 1.38
+
+.small, small
+  font-size: 10px
+  line-height: 1.2
+
+p
+  margin: 0 0 20px 0
+
+em
+  font-style: italic
+
+strong
+  font-weight: bold
+  color: rgba(0, 0, 0, 0.9)
+
+hr
+  border: solid #ddd
+  border-width: 1px 0 0
+  clear: both
+  margin: 10px 0 30px
+  height: 0
+  &.section-title-rule
+    border-top: 2px solid #F5E830
+    width: 100px
+    margin: 10px auto 30px
+
+.tint-reversed hr.section-title-rule
+  border-top-color: rgba(255, 255, 255, 0.2)
+
+.section-head
+  font-size: 18px
+  color: rgba(0, 0, 0, 0.8)
+  text-align: center
+
+.lead
+  font-size: 16px
+  font-weight: 400
+  color: rgba(0, 0, 0, 0.8)
+
+.bold
+  font-weight: 600
+
+.regular
+  font-size: 14px
+  font-weight: 400
+  color: rgba(0, 0, 0, 0.8)
+
+.muted
+  font-size: 13px
+  font-style: italic
+
+.muted-extra
+  font-size: 12px
+  font-weight: 400
+  color: rgba(0, 0, 0, 0.5)
+
+.blue
+  color: #0067AF
+
+.black
+  color: black
+
+.white
+  color: rgba(255, 255, 255, 0.8)
+
+.white-hard
+  color: white
+
+.text-center
+  text-align: center
+
+.text-right
+  text-align: right
+
+.button, button
+  display: inline-block
+  padding: 5px 20px
+  color: #555
+  text-align: center
+  text-decoration: none
+  white-space: nowrap
+  background-color: transparent
+  border-radius: 4px
+  border: 1px solid #bbb
+  cursor: pointer
+  box-sizing: border-box
+
+
+
+.button
+  &:hover, &:active, &:focus
+    color: inherit
+    border-color: #888
+    outline: 0
+
+button
+  &:hover, &:active, &:focus
+    color: inherit
+    border-color: #888
+    outline: 0
+
+button, input, optgroup, select, textarea
+  color: inherit
+  font: inherit
+  margin: 0
+
+button
+  overflow: visible
+  text-transform: none
+
+select
+  text-transform: none
+
+button, html input[type=button]
+  -webkit-appearance: button
+  cursor: pointer
+
+input
+  &[type=reset], &[type=submit]
+    -webkit-appearance: button
+    cursor: pointer
+
+button[disabled], html input[disabled]
+  cursor: default
+
+button::-moz-focus-inner
+  border: 0
+  padding: 0
+
+input
+  &::-moz-focus-inner
+    border: 0
+    padding: 0
+  line-height: normal
+  &[type=checkbox], &[type=radio]
+    box-sizing: border-box
+    padding: 0
+  &[type=number]
+    &::-webkit-inner-spin-button, &::-webkit-outer-spin-button
+      height: auto
+  &[type=search]
+    -webkit-appearance: textfield
+    -moz-box-sizing: content-box
+    -webkit-box-sizing: content-box
+    box-sizing: content-box
+    &::-webkit-search-cancel-button, &::-webkit-search-decoration
+      -webkit-appearance: none
+
+fieldset
+  border: 1px solid silver
+  margin: 0 2px
+  padding: .35em 0em .75em
+
+textarea
+  font-size: 16px
+  -webkit-appearance: none
+
+input:focus, textarea:focus
+  outline: none
+
+input.needsfilled
+  border-color: #FF851B !important
+  color: #FF851B !important
+
+.flex-video
+  height: 0
+  margin-bottom: 0.88889rem
+  overflow: hidden
+  padding-bottom: 56%
+  position: relative
+  iframe, object, embed, video
+    height: 100%
+    position: absolute
+    top: 0
+    width: 100%
+    left: 0
+
+body
+  position: relative
+
+
+*,
+*:before,
+*:after
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+
+header
+  height: 80px
+  position: relative
+  background: #424C54
+  .devtips-logo-svg
+    position: absolute
+    left: 50%
+    top: 50%
+    margin-left: -25px
+    margin-top: -20px
+  .menu-svg
+    position: absolute
+    top: 28px
+    left: 30px
+    cursor: pointer
+    fill: white
+
+.menu-overlay
+  position: fixed
+  background-color: transparent
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  pointer-events: none
+  -webkit-transition: all 350ms ease-in-out
+  transition: all 350ms ease-in-out
+
+.menu-plate
+  position: absolute
+  top: 0px
+  left: -400px
+  width: 300px
+  height: 100%
+  background: white
+  box-shadow: 3px 0px 30px rgba(0, 0, 0, 0.4)
+  -webkit-transition: all 350ms ease-in-out
+  transition: all 350ms ease-in-out
+  .jquery-icon-svg path
+    fill: rgba(0, 0, 0, 0.54)
+
+.menu-close
+  position: absolute
+  top: 28px
+  left: 30px
+  cursor: pointer
+
+.menu
+  margin: 0
+  list-style: none
+  margin-top: 88px
+  padding-left: 30px
+  li
+    margin-bottom: 30px
+  svg
+    vertical-align: top
+    margin-right: 20px
+    fill: rgba(0, 0, 0, 0.54)
+    width: 24px
+    height: 24px
+  a
+    border-bottom: none
+    text-transform: uppercase
+    font-weight: 500
+    font-size: 16px
+    display: inline-block
+    height: 24px
+    line-height: 24px
+  .double-line
+    display: inline-block
+    line-height: 1.4
+    span
+      display: block
+      font-size: 12px
+      color: rgba(0, 0, 0, 0.3)
+
+html.menu-open
+  body
+    overflow: hidden
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+  .menu-overlay
+    background-color: rgba(0, 0, 0, 0.7)
+    pointer-events: auto
+  .menu-plate
+    -webkit-transform: translate3d(400px, 0px, 0px)
+    transform: translate3d(400px, 0px, 0px)
+
+.wrap-1
+  background-color: lightslategray
+  position: relative
+
+  //.box-top
+    width: 100%
+    height: 100px
+    position: relative
+    background: #424C54
+
+  .arc
+    display: relative
+    padding-top: 0
+    .arc-svg
+      margin-top: -1px
+      path
+        fill: #424C54
+
+  @media (min-width: 830px)
+    .arc .constrainer
+      max-width: 540px
+
+.logo
+  position: absolute
+  z-index: 0
+  top: -40px
+  left: 46%
+  right: 46%
+  a
+    border: none
+    img
+      width: 80
+      height: 80
+
+
+.shape
+  position: relative
+  .top-rect
+    width: 100%
+    padding-top: 400px
+    position: absolute
+    top: 0
+    left: 0
+    z-index: -1
+    background-color: lightslategray
+    overflow: hidden
+  .top-rect:after
+    content: ""
+    display: block
+    background: white
+    height: 400px
+    width: 8000px
+    position: absolute
+    z-index: 1
+    bottom: -50%
+    left: 50%
+    margin-left: -4000px
+    -webkit-transform: rotate(6deg)
+    transform: rotate(6deg)
+.shape .top-rect-2
+  background-color: teal
+.shape .top-rect-3
+  background-color: palegoldenrod
+
+.box
+  //display: inline-block
+  position: relative
+  box-shadow: 10px 10px 5px grey
+
+.box:after
+  content: ""
+  display: block
+  background-color: #F3F7A0
+  //background: #B1D4F0
+  height: 250px
+  z-index: -1
+  position: absolute
+  top: 50px
+  left: 25%
+  right: 25%
+  box-shadow: 10px 10px 5px grey
+  -webkit-transform: rotate(24deg) skewY(-24deg)
+  transform: rotate(24deg) skewY(-24deg)
+
+.box-2:after
+  background-color: #FF6262
+.box-3:after
+  background-color: #629CFF
+
+
+.box h1
+  position: absolute
+  left: 30%
+  right: 30%
+  //background: red
+  top: 130px
+  color: white
+  text-align: center
+  text-shadow: 5px 5px 5px grey
+  letter-spacing: 10px
+  border: 10px solid white
+  box-shadow: 5px 5px 5px grey
+
+
+
+section.what-is-iprem
+  margin: 360px 0 120px 0
+  .constrainer
+    max-width: 560px
+    padding: 0 25px
+    margin: 0 auto
+    .inner-content
+      font-size: 18px
+      text-align: center
+      color: #333
+      width: 90%
+      margin: 20px auto
+
+//.container
+  margin-top: 350px
+  margin-bottom: 100px
+  position: relative
+  //background-color: skyblue
+  .section-content
+    max-width: 760px
+    padding: 0 25px
+    margin: 0 auto
+    //background-color: lightgreen
+    display: flex
+    justify-content: center
+    .inner-content
+      font-size: 18px
+      text-align: center
+      color: #333
+      width: 90%
+      margin: 20px auto
+      //background-color: lemonchiffon
+//.container-work
+  background-color: darkgray
+  .section-content
+    max-width: 960px
+//.container-testimonial
+  background-color: gray
+  overflow: hidden
+  .section-content
+    max-width: 400px
+
+@media screen and (max-width: 685px)
+  .container-about
+    margin-top: 300px
+
+hr.section-rule
+  border-top: 2px solid #F5E830
+  width: 100px
+  margin: 10px auto 30px
+
+.media-object
+  display: flex
+  .media-img
+    margin-right: 20px
+    flex-shrink: 0
+    img
+      width: 50px
+      height: 50px
+      border-radius: 50%
+  .media-content
+    display: block
+    p
+      text-align: left
+      font-size: 0.7em
+
+//.work-thumbs
+  position: relative
+  display: flex
+  justify-content: center
+  flex-wrap: wrap
+  .thumb-unit
+    margin: 0
+    width: 25%
+    cursor: pointer
+    .thumb-content
+      width: 100%
+      img
+        width: 100%
+        -webkit-transition: all 300ms
+        -moz-transition: all 300ms
+        transition: all 300ms
+
+//.thumb-unit
+  overflow: hidden
+  &:hover img
+    -webkit-transform: scale(1.4)
+    -moz-transform: scale(1.4)
+    transform: scale(1.4)
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize
+
+
+
+@font-face
+  font-family: 'Open Sans'
+  font-style: normal
+  font-weight: 300
+  src: local("Open Sans Light"), local("OpenSans-Light"), url(//themes.googleusercontent.com/static/fonts/opensans/v8/DXI1ORHCpsQm3Vp6mXoaTaRDOzjiPcYnFooOUGCOsRk.woff) format("woff")
+
+
+@font-face
+  font-family: 'Open Sans'
+  font-style: normal
+  font-weight: 400
+  src: local("Open Sans"), local("OpenSans"), url(//themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format("woff")
+
+
+@font-face
+  font-family: 'Open Sans'
+  font-style: normal
+  font-weight: 700
+  src: local("Open Sans Bold"), local("OpenSans-Bold"), url(//themes.googleusercontent.com/static/fonts/opensans/v8/k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff) format("woff")
+
+
+/*
+ *Animation: bounceOut
+ *Source: Bounce.Js
+
+.thumb-container label
+  .thumb-overlay
+    height: 0%
+    width: 0%
+    top: 0%
+    overflow: hidden
+  &:hover .thumb-overlay
+    -webkit-animation: animation 1s linear both
+    animation: animation 1s linear both
+    z-index: 2
+
+@-webkit-keyframes animation
+  0%
+    height: 0%
+    width: 0%
+    -webkit-transform: matrix3d(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  3.333333%
+    height: 100%
+    width: 100%
+    -webkit-transform: matrix3d(0.34323, 0.11487, 0, 0, 0.07506, 0.34323, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(0.34323, 0.11487, 0, 0, 0.07506, 0.34323, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  6.666667%
+    -webkit-transform: matrix3d(0.65416, 0.2159, 0, 0, 0.14115, 0.65416, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(0.65416, 0.2159, 0, 0, 0.14115, 0.65416, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  10%
+    -webkit-transform: matrix3d(0.88518, 0.18431, 0, 0, 0.1219, 0.88518, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(0.88518, 0.18431, 0, 0, 0.1219, 0.88518, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  13.333333%
+    -webkit-transform: matrix3d(1.02792, 0.0976, 0, 0, 0.06496, 1.02792, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(1.02792, 0.0976, 0, 0, 0.06496, 1.02792, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  16.666667%
+    -webkit-transform: matrix3d(1.09602, 0.02621, 0, 0, 0.01747, 1.09602, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(1.09602, 0.02621, 0, 0, 0.01747, 1.09602, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  20%
+    -webkit-transform: matrix3d(1.1117, -0.0094, 0, 0, -0.00627, 1.1117, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(1.1117, -0.0094, 0, 0, -0.00627, 1.1117, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  23.333333%
+    -webkit-transform: matrix3d(1.09709, -0.01805, 0, 0, -0.01203, 1.09709, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(1.09709, -0.01805, 0, 0, -0.01203, 1.09709, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  26.666667%
+    -webkit-transform: matrix3d(1.0698, -0.0143, 0, 0, -0.00954, 1.0698, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(1.0698, -0.0143, 0, 0, -0.00954, 1.0698, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  30%
+    -webkit-transform: matrix3d(1.04151, -0.00794, 0, 0, -0.0053, 1.04151, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(1.04151, -0.00794, 0, 0, -0.0053, 1.04151, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  33.333333%
+    -webkit-transform: matrix3d(1.01844, -0.00306, 0, 0, -0.00204, 1.01844, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(1.01844, -0.00306, 0, 0, -0.00204, 1.01844, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  36.666667%
+    -webkit-transform: matrix3d(1.00277, -0.00038, 0, 0, -0.00025, 1.00277, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(1.00277, -0.00038, 0, 0, -0.00025, 1.00277, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  40%
+    -webkit-transform: matrix3d(0.99411, 0.00064, 0, 0, 0.00043, 0.99411, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(0.99411, 0.00064, 0, 0, 0.00043, 0.99411, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  43.333333%
+    -webkit-transform: matrix3d(0.99083, 0.00076, 0, 0, 0.0005, 0.99083, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(0.99083, 0.00076, 0, 0, 0.0005, 0.99083, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  46.666667%
+    -webkit-transform: matrix3d(0.991, 0.00053, 0, 0, 0.00035, 0.991, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(0.991, 0.00053, 0, 0, 0.00035, 0.991, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  50%
+    -webkit-transform: matrix3d(0.99292, 0.00027, 0, 0, 0.00018, 0.99292, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(0.99292, 0.00027, 0, 0, 0.00018, 0.99292, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  53.333333%
+    -webkit-transform: matrix3d(0.99535, 0.00008, 0, 0, 0.00006, 0.99535, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(0.99535, 0.00008, 0, 0, 0.00006, 0.99535, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  56.666667%
+    -webkit-transform: matrix3d(0.99755, -0.00001, 0, 0, 0, 0.99755, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(0.99755, -0.00001, 0, 0, 0, 0.99755, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  60%
+    -webkit-transform: matrix3d(0.99919, -0.00004, 0, 0, -0.00002, 0.99919, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(0.99919, -0.00004, 0, 0, -0.00002, 0.99919, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  63.333333%
+    -webkit-transform: matrix3d(1.0002, -0.00003, 0, 0, -0.00002, 1.0002, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(1.0002, -0.00003, 0, 0, -0.00002, 1.0002, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  66.666667%
+    -webkit-transform: matrix3d(1.00068, -0.00002, 0, 0, -0.00001, 1.00068, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(1.00068, -0.00002, 0, 0, -0.00001, 1.00068, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  70%
+    -webkit-transform: matrix3d(1.00079, -0.00001, 0, 0, -0.00001, 1.00079, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(1.00079, -0.00001, 0, 0, -0.00001, 1.00079, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  73.333333%
+    -webkit-transform: matrix3d(1.00069, 0, 0, 0, 0, 1.00069, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(1.00069, 0, 0, 0, 0, 1.00069, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  76.666667%
+    -webkit-transform: matrix3d(1.00049, 0, 0, 0, 0, 1.00049, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(1.00049, 0, 0, 0, 0, 1.00049, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  80%
+    -webkit-transform: matrix3d(1.00029, 0, 0, 0, 0, 1.00029, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(1.00029, 0, 0, 0, 0, 1.00029, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  83.333333%
+    -webkit-transform: matrix3d(1.00013, 0, 0, 0, 0, 1.00013, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(1.00013, 0, 0, 0, 0, 1.00013, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  86.666667%
+    -webkit-transform: matrix3d(1.00002, 0, 0, 0, 0, 1.00002, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(1.00002, 0, 0, 0, 0, 1.00002, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  90%
+    -webkit-transform: matrix3d(0.99996, 0, 0, 0, 0, 0.99996, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(0.99996, 0, 0, 0, 0, 0.99996, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  93.333333%
+    -webkit-transform: matrix3d(0.99994, 0, 0, 0, 0, 0.99994, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(0.99994, 0, 0, 0, 0, 0.99994, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  96.666667%
+    -webkit-transform: matrix3d(0.99994, 0, 0, 0, 0, 0.99994, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(0.99994, 0, 0, 0, 0, 0.99994, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  100%
+    height: 100%
+    width: 100%
+    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+
+@keyframes animation
+  0%
+    height: 0%
+    width: 0%
+    -webkit-transform: matrix3d(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  3.333333%
+    height: 100%
+    width: 100%
+    -webkit-transform: matrix3d(0.34323, 0.11487, 0, 0, 0.07506, 0.34323, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(0.34323, 0.11487, 0, 0, 0.07506, 0.34323, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  6.666667%
+    -webkit-transform: matrix3d(0.65416, 0.2159, 0, 0, 0.14115, 0.65416, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(0.65416, 0.2159, 0, 0, 0.14115, 0.65416, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  10%
+    -webkit-transform: matrix3d(0.88518, 0.18431, 0, 0, 0.1219, 0.88518, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(0.88518, 0.18431, 0, 0, 0.1219, 0.88518, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  13.333333%
+    -webkit-transform: matrix3d(1.02792, 0.0976, 0, 0, 0.06496, 1.02792, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(1.02792, 0.0976, 0, 0, 0.06496, 1.02792, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  16.666667%
+    -webkit-transform: matrix3d(1.09602, 0.02621, 0, 0, 0.01747, 1.09602, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(1.09602, 0.02621, 0, 0, 0.01747, 1.09602, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  20%
+    -webkit-transform: matrix3d(1.1117, -0.0094, 0, 0, -0.00627, 1.1117, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(1.1117, -0.0094, 0, 0, -0.00627, 1.1117, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  23.333333%
+    -webkit-transform: matrix3d(1.09709, -0.01805, 0, 0, -0.01203, 1.09709, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(1.09709, -0.01805, 0, 0, -0.01203, 1.09709, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  26.666667%
+    -webkit-transform: matrix3d(1.0698, -0.0143, 0, 0, -0.00954, 1.0698, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(1.0698, -0.0143, 0, 0, -0.00954, 1.0698, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  30%
+    -webkit-transform: matrix3d(1.04151, -0.00794, 0, 0, -0.0053, 1.04151, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(1.04151, -0.00794, 0, 0, -0.0053, 1.04151, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  33.333333%
+    -webkit-transform: matrix3d(1.01844, -0.00306, 0, 0, -0.00204, 1.01844, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(1.01844, -0.00306, 0, 0, -0.00204, 1.01844, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  36.666667%
+    -webkit-transform: matrix3d(1.00277, -0.00038, 0, 0, -0.00025, 1.00277, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(1.00277, -0.00038, 0, 0, -0.00025, 1.00277, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  40%
+    -webkit-transform: matrix3d(0.99411, 0.00064, 0, 0, 0.00043, 0.99411, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(0.99411, 0.00064, 0, 0, 0.00043, 0.99411, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  43.333333%
+    -webkit-transform: matrix3d(0.99083, 0.00076, 0, 0, 0.0005, 0.99083, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(0.99083, 0.00076, 0, 0, 0.0005, 0.99083, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  46.666667%
+    -webkit-transform: matrix3d(0.991, 0.00053, 0, 0, 0.00035, 0.991, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(0.991, 0.00053, 0, 0, 0.00035, 0.991, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  50%
+    -webkit-transform: matrix3d(0.99292, 0.00027, 0, 0, 0.00018, 0.99292, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(0.99292, 0.00027, 0, 0, 0.00018, 0.99292, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  53.333333%
+    -webkit-transform: matrix3d(0.99535, 0.00008, 0, 0, 0.00006, 0.99535, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(0.99535, 0.00008, 0, 0, 0.00006, 0.99535, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  56.666667%
+    -webkit-transform: matrix3d(0.99755, -0.00001, 0, 0, 0, 0.99755, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(0.99755, -0.00001, 0, 0, 0, 0.99755, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  60%
+    -webkit-transform: matrix3d(0.99919, -0.00004, 0, 0, -0.00002, 0.99919, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(0.99919, -0.00004, 0, 0, -0.00002, 0.99919, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  63.333333%
+    -webkit-transform: matrix3d(1.0002, -0.00003, 0, 0, -0.00002, 1.0002, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(1.0002, -0.00003, 0, 0, -0.00002, 1.0002, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  66.666667%
+    -webkit-transform: matrix3d(1.00068, -0.00002, 0, 0, -0.00001, 1.00068, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(1.00068, -0.00002, 0, 0, -0.00001, 1.00068, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  70%
+    -webkit-transform: matrix3d(1.00079, -0.00001, 0, 0, -0.00001, 1.00079, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(1.00079, -0.00001, 0, 0, -0.00001, 1.00079, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  73.333333%
+    -webkit-transform: matrix3d(1.00069, 0, 0, 0, 0, 1.00069, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(1.00069, 0, 0, 0, 0, 1.00069, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  76.666667%
+    -webkit-transform: matrix3d(1.00049, 0, 0, 0, 0, 1.00049, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(1.00049, 0, 0, 0, 0, 1.00049, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  80%
+    -webkit-transform: matrix3d(1.00029, 0, 0, 0, 0, 1.00029, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(1.00029, 0, 0, 0, 0, 1.00029, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  83.333333%
+    -webkit-transform: matrix3d(1.00013, 0, 0, 0, 0, 1.00013, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(1.00013, 0, 0, 0, 0, 1.00013, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  86.666667%
+    -webkit-transform: matrix3d(1.00002, 0, 0, 0, 0, 1.00002, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(1.00002, 0, 0, 0, 0, 1.00002, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  90%
+    -webkit-transform: matrix3d(0.99996, 0, 0, 0, 0, 0.99996, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(0.99996, 0, 0, 0, 0, 0.99996, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  93.333333%
+    -webkit-transform: matrix3d(0.99994, 0, 0, 0, 0, 0.99994, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(0.99994, 0, 0, 0, 0, 0.99994, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  96.666667%
+    -webkit-transform: matrix3d(0.99994, 0, 0, 0, 0, 0.99994, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(0.99994, 0, 0, 0, 0, 0.99994, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+  100%
+    height: 100%
+    width: 100%
+    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+@font-face
+  font-family: "icomoon"
+  src: url(data:application/x-font-ttf;charset=utf-8;base64,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) format("truetype"), url(data:application/font-woff;charset=utf-8;base64,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) format("woff")
+  font-weight: normal
+  font-style: normal
+
+
+[class^="icon-"], [class*=" icon-"]
+  font-family: "icomoon"
+  line-height: 1
+  /* Add 1px margin-top to center the icon
+  display: block
+  margin-top: 1px
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+.icon-twitter:before
+  content: "\e602"
+
+.icon-facebook:before
+  content: "\e603"
+
+.icon-github:before
+  content: "\e600"
+
+.icon-pinterest:before
+  content: "\e608"
+
+.icon-google-plus:before
+  content: "\e604"
+
+.icon-linkedin:before
+  content: "\e601"
+
+.icon-youtube:before
+  content: "\e60b"
+
+.icon-instagram:before
+  content: "\e609"
+
+.icon-dribbble:before
+  content: "\e605"
+
+.icon-behance:before
+  content: "\e607"
+
+.icon-soundcloud:before
+  content: "\e606"
+
+.icon-vine:before
+  content: "\e60a"
+
+h3
+  color: #e1c285
+  text-align: center
+  padding: 100px 0 30px
+  font-size: 14px
+  font-weight: 700
+  text-transform: uppercase
+
+
+.section-work
+  margin-top: 350px
+  padding-bottom: 130px
+  overflow-x: hidden
+  h3
+    padding: 30px 0 50px 0
+
+
+/* Hackey-type CSS as a jQuery Alternative for when the browser does not have jQuery enabled.
+
+.noscript
+  display: none
+
+#proj-1:checked ~ .work-belt .work-wrap .work-container .workings #content-proj-1, #proj-2:checked ~ .work-belt .work-wrap .work-container .workings #content-proj-2, #proj-3:checked ~ .work-belt .work-wrap .work-container .workings #content-proj-3, #proj-4:checked ~ .work-belt .work-wrap .work-container .workings #content-proj-4, #proj-5:checked ~ .work-belt .work-wrap .work-container .workings.workings #content-proj-5, #proj-6:checked ~ .work-belt .work-wrap .work-container .workings #content-proj-6, #proj-7:checked ~ .work-belt .work-wrap .work-container .workings #content-proj-7, #proj-8:checked ~ .work-belt .work-wrap .work-container .workings #content-proj-8
+  display: block
+
+.return
+  display: none
+
+.trigger
+  display: none
+  &:checked ~ .work-belt
+    left: -100%
+    .work-wrap .work-container
+      display: block
+
+/* End of gross / hackey CSS
+
+.work-belt
+  width: 200%
+  position: relative
+  left: 0%
+  -webkit-transition: all, 800ms
+  -moz-transition: all, 800ms
+  transition: all, 800ms
+  &.slided
+    -webkit-transform: translate3d(-0%, 0, 0)
+    -moz-transform: translate3d(-0%, 0, 0)
+    -ms-transform: translate3d(-0%, 0, 0)
+    -o-transform: translate3d(-0%, 0, 0)
+    transform: translate3d(-0%, 0, 0)
+
+.thumb-wrap, .work-wrap
+  width: 50%
+  float: left
+  padding: 20px 20px
+
+.thumb-container
+  display: block
+  max-width: 960px
+  margin: 0px auto
+  &:after
+    content: ""
+    display: table
+    clear: both
+  label
+    position: relative
+    display: block
+    float: left
+    width: 25%
+    cursor: pointer
+    .thumb-unit
+      display: block
+      overflow: hidden
+      img
+        display: block
+        max-width: 100%
+    .thumb-overlay
+      position: absolute
+      -webkit-box-align: center
+      -moz-box-align: center
+      box-align: center
+      -webkit-align-items: center
+      -moz-align-items: center
+      -ms-align-items: center
+      -o-align-items: center
+      align-items: center
+      -ms-flex-align: center
+      -webkit-box-pack: center
+      -moz-box-pack: center
+      box-pack: center
+      -webkit-justify-content: space-around
+      -moz-justify-content: space-around
+      -ms-justify-content: space-around
+      -o-justify-content: space-around
+      justify-content: space-around
+      -ms-flex-pack: center
+      display: -webkit-box
+      display: -moz-box
+      display: box
+      display: -webkit-flex
+      display: -moz-flex
+      display: -ms-flexbox
+      display: flex
+      background: rgba(201, 144, 101, 0.9)
+      text-align: center
+      strong
+        display: block
+        padding: 0 9%
+        color: white
+        font-weight: 300
+        font-size: 24px
+        text-transform: uppercase
+        line-height: 1.2
+    &:hover
+      z-index: 2
+
+@media screen and (max-width: 760px)
+  .thumb-container label
+    width: 50%
+
+.work-container
+  max-width: 600px
+  margin: 0px auto
+  padding: 0 15px
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+  position: relative
+  display: none
+  h4, noscript h4
+    color: #c99065
+    font-weight: 300
+    text-transform: uppercase
+    font-size: 28px
+    line-height: 1.2
+    margin: 0 0 20px
+  img
+    max-width: 100%
+    margin-bottom: 20px
+  .work-return
+    height: 40px
+    width: 40px
+    cursor: pointer
+    opacity: 0.5
+    position: absolute
+    top: -4px
+    left: -60px
+    path
+      fill: rgba(0, 0, 0, 0.4)
+    &:hover
+      opacity: 1
+
+@media (max-width: 740px)
+  .work-container
+    .work-return
+      left: 0px
+    h4
+      margin-left: 60px
+section.testimonials
+  padding: 40px 0px
+  margin-top: 350px
+  &.tint
+    background-color: #f5f5f5
+  .constrainer
+    max-width: 400px
+    margin: 0 auto
+    padding: 0 30px
+  &.testimonials
+    overflow: hidden
+
+.carousel-nav-wrap
+  height: 30px
+  margin-bottom: 20px
+  position: relative
+  &:after
+    content: ""
+    display: block
+    position: absolute
+    z-index: -1
+    width: 210px
+    height: 25px
+    background: rgba(249, 236, 49, 0.3)
+    top: 0px
+    left: -10px
+    -webkit-transform: rotate(-2deg) skewX(10deg)
+    transform: rotate(-2deg) skewX(10deg)
+  .carousel-nav
+    float: right
+    svg
+      cursor: pointer
+      fill: rgba(0, 0, 0, 0.54)
+      &:hover
+        fill: black
+
+.carousel-wrap
+  position: relative
+  margin-bottom: 20px
+  cite
+    color: #999
+  .carousel-unit
+    opacity: 0
+    position: absolute
+    -webkit-transform: translate(0px, 50px) scale(1.2)
+    transform: translate(0px, 50px) scale(1.2)
+    -webkit-transition: all ease-in-out 500ms
+    transition: all ease-in-out 500ms
+    pointer-events: none
+    &.is-current
+      opacity: 1
+      -webkit-transform: translate(0px, 0px) scale(1)
+      transform: translate(0px, 0px) scale(1)
+
+.media-object
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  .media
+    margin-right: 20px
+    -webkit-flex-shrink: 0
+    -ms-flex-negative: 0
+    flex-shrink: 0
+
+.avatar
+  width: 50px
+  height: 50px
+  border-radius: 50%
+
+.section-contact
+  background-color: lightgray
+  text-align: center
+  padding-bottom: 100px
+  h3
+    padding: 50px 0 0px 0
+    color: #c99065
+
+.social-links
+  max-width: 600px
+  margin: 0px auto 50px
+  display: -webkit-box
+  display: -moz-box
+  display: box
+  display: -webkit-flex
+  display: -moz-flex
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-pack: center
+  -moz-box-pack: center
+  box-pack: center
+  -webkit-justify-content: space-around
+  -moz-justify-content: space-around
+  -ms-justify-content: space-around
+  -o-justify-content: space-around
+  justify-content: space-around
+  -ms-flex-pack: center
+  -webkit-box-lines: multiple
+  -moz-box-lines: multiple
+  box-lines: multiple
+  -webkit-flex-wrap: wrap
+  -moz-flex-wrap: wrap
+  -ms-flex-wrap: wrap
+  flex-wrap: wrap
+  a
+    display: block
+    border: 2px solid #3e3e3e
+    height: 50px
+    width: 50px
+    line-height: 50px
+    color: #3e3e3e
+    border-radius: 50%
+    font-size: 28px
+    margin: 20px
+    position: relative
+    &:after
+      content: ""
+      display: block
+      position: absolute
+      top: 0px
+      right: 0px
+      bottom: 0px
+      left: 0px
+      border: 2px solid #4e4e4e
+      border-radius: 50%
+      margin: -2px
+      opacity: 1
+      -webkit-transition: all 0.15s ease-out 0s
+      -moz-transition: all 0.15s ease-out 0s
+      transition: all 0.15s ease-out 0s
+    &:hover:after
+      -webkit-transform: scale(1.5)
+      -moz-transform: scale(1.5)
+      -ms-transform: scale(1.5)
+      -o-transform: scale(1.5)
+      transform: scale(1.5)
+      opacity: 0
+
+.bar
+  width: 250px
+  height: 0px
+  border-top: 4px solid #c99065
+  margin: 0px auto 50px
+
+.biglink
+  display: inline-block
+  font-size: 40px
+  font-weight: 300
+  line-height: 1
+  width: 90%
+  margin: 0 auto
+  border: none
+
+.contact-form h3
+  color: #c99065
+
+form
+  max-width: 450px
+  margin: 0 auto 100px
+  padding: 0 20px
+  fieldset
+    border: none
+  input, textarea
+    border: 3px solid #c99065
+    width: 100%
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+    padding: 10px
+    -webkit-appearance: none
+    -moz-appearance: none
+    appearance: none
+    font-size: 16px
+  input:focus
+    outline: none
+    border-color: #e1c285
+  textarea
+    &:focus
+      outline: none
+      border-color: #e1c285
+    height: 10em
+    resize: none
+  .submit-wrap
+    text-align: right
+    border: none
+  [type="submit"]
+    background: #c99065
+    color: white
+    font-size: 18px
+    text-transform: uppercase
+    width: 33%
+    &:hover
+      background: #e1c285
+  .contact-info-group label
+    width: 50%
+    float: left
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+    &:nth-child(1)
+      padding-right: 10px
+    &:nth-child(2)
+      padding-left: 10px
+  label
+    display: block
+    margin-bottom: 20px
+    span
+      display: block
+
+@media (max-width: 541px)
+  form
+    .contact-info-group label
+      width: 100%
+      &:nth-child(1), &:nth-child(2)
+        padding: 0
+    [type="submit"]
+      width: 100%
+
+.form-success
+  background: #e5eaee
+  text-align: center
+  p
+    font-size: 18px
+
+footer
+  padding: 40px 0px
+  background: #444
+
+.link-list
+  list-style: none
+  padding: 0
+  margin: 0
+  li:after
+    content: ""
+    display: block
+    height: 1px
+    width: 20px
+    background: rgba(0, 0, 0, 0.1)
+    margin: 20px auto
+
+.tint-reversed .link-list li:after
+  background: rgba(255, 255, 255, 0.1)
+
+.link-list li
+  &:last-child:after
+    display: none
+  a
+    border: none
+
+
+@media screen and (max-width: 1100px)
+  .box-2 h1
+    font-size: 4em
+    letter-spacing: 5px
+
+@media screen and (max-width: 920px)
+  .box:after
+    top: 100px
+    height: 150px
+    box-shadow: 7px 7px 3px grey
+  .box h1
+    font-size: 4em
+    letter-spacing: 5px
+    top: 140px
+    text-shadow: 3.5px 3.5px 3.5px grey
+    box-shadow: 3.5px 3.5px 3.5px grey
+
+@media screen and (max-width: 845px)
+  .box:after
+    top: 100px
+    height: 150px
+    box-shadow: 7px 7px 3px grey
+  .box-2 h1
+    font-size: 3em
+    letter-spacing: 5px
+    top: 150px
+    text-shadow: 3.5px 3.5px 3.5px grey
+    box-shadow: 3.5px 3.5px 3.5px grey
+  section.what-is-iprem
+    margin: 300px 0 50px 0
+  .section-work
+    margin-top: 300px
+    padding-bottom: 50px
+  .section-work h3
+    padding: 0 0 20px 0
+  section.testimonials
+    padding: 40px 0px
+    margin-top: 270px
+  .logo
+    left: 45%
+
+@media screen and (max-width: 705px)
+  .box h1
+    font-size: 2.5em
+    letter-spacing: 3px
+    top: 150px
+    border: 7px solid white
+  .logo
+    left: 44%
+
+@media screen and (max-width: 530px)
+  .box h1
+    top: 90px
+  .box-2 h1
+    font-size: 2em
+    letter-spacing: 3px
+    top: 95px
+    border: 5px solid white
+  .inner-content > .media-object
+    display: block
+    .media-img
+      margin: 10px auto
+    .media-content
+      p
+        text-align: center
+  .logo
+    left: 43%
+  .shape .top-rect
+    padding-top: 350px
+  .box:after
+    top: 40px
+  section.what-is-iprem
+    margin: 250px 0 50px 0
+  .section-work
+    margin-top: 250px
+    padding-bottom: 30px
+  section.testimonials
+    padding: 40px 0px
+    margin-top: 220px
+
+@media screen and (max-width: 450px)
+  .box:after
+    top: 60px
+    height: 120px
+    left: 20%
+    right: 20%
+    box-shadow: 7px 7px 3px grey
+  .box h1
+    font-size: 1.7em
+    letter-spacing: 3px
+    top: 105px
+    border: 5px solid white
+    left: 28.5%
+  .logo
+    left: 41%
+  .biglink
+    font-size: 30px
+  section.what-is-iprem
+    margin: 200px 0 50px 0
+  .section-work
+    margin-top: 200px
+    padding-bottom: 30px
+  section.testimonials
+    padding: 40px 0px
+    margin-top: 170px
+
+@media screen and (max-width: 370px)
+  .box-2 h1
+    font-size: 1.5em
+    letter-spacing: 3px
+    top: 100px
+    border: 5px solid white
+  .logo
+    left: 39%
+
+@media screen and (max-width: 328px)
+  .box:after
+    top: 50px
+    height: 120px
+    left: 20%
+    right: 20%
+    box-shadow: 7px 7px 3px grey
+  .box h1
+    letter-spacing: 3px
+    top: 95px
+    border: 5px solid white
+    left: 25%
+    right: 25%
+  .box-2 h1
+    font-size: 1.7em
+    letter-spacing: 3px
+    top: 95px
+    border: 5px solid white
+  .logo
+    left: 41%
+    top: -30px
+    a img
+      width: 55px
+      height: 55px
